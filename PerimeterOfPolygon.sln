@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerimeterOfPolygon", "PerimeterOfPolygon\PerimeterOfPolygon.csproj", "{D6E38081-8129-45B7-B7C8-0A106573D486}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerimeterOfPolygon", "PerimeterOfPolygon\PerimeterOfPolygon.csproj", "{D6E38081-8129-45B7-B7C8-0A106573D486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerimeterOfPolygon.Test", "PerimeterOfPolygon.Test\PerimeterOfPolygon.Test.csproj", "{5C1EECFC-0712-469C-919D-1F8640F92B66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D6E38081-8129-45B7-B7C8-0A106573D486}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6E38081-8129-45B7-B7C8-0A106573D486}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6E38081-8129-45B7-B7C8-0A106573D486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1EECFC-0712-469C-919D-1F8640F92B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1EECFC-0712-469C-919D-1F8640F92B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1EECFC-0712-469C-919D-1F8640F92B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1EECFC-0712-469C-919D-1F8640F92B66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

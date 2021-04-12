@@ -29,7 +29,7 @@ namespace PerimeterOfPolygon
             Points = new List<Point>() { fifthPoint, secondPoint, thirdPoint, fourthPoint, fifthPoint };
         }
 
-        private static int SideLength(Point firstPoint, Point secondPoint)
+        public static int SideLength(Point firstPoint, Point secondPoint)
         {
             int result = (int)Math.Sqrt(Math.Pow(firstPoint.x - secondPoint.x, 2) + Math.Pow(firstPoint.y - secondPoint.y, 2));
             return result;
